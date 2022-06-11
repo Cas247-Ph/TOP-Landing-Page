@@ -4,88 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage Template</title>
+    <title>TOP Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+        </style>
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <div class="logo"><a href="index.html">Header Logo</a></div>
-            <div class="header-links">
-                <ul>
-                    <li><a href="">header link one</a></li>
-                    <li><a href="">header link two</a></li>
-                    <li><a href="">header link three</a></li>
-                </ul>
-            </div>
-        </nav>
-
+    <div class="header">
+        <img src="./images/Cover_Corp_horizontal_logo_1.png" alt="Cover Corp Logo">
+            <ul class="header--links">
+                <li><a href="#">Wiki</a></li>
+                <li><a href="#">Official Page</a></li>
+                <li><a href="#">Official Twitter</a></li>
+            </ul>
+    </div>
     <div class="content">
-        <div class="text">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. it's a smaller font and the color is lower contrast</p>
-            <button class="content-signup">Sign up</button>
+        <div class="welcoming--section">
+            <div class="welcoming--wrapper">
+                <div class="welcoming--text">
+                    <h1>Ohayo!</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab culpa illo quisquam aspernatur fuga. Fugit dicta quibusdam at pariatur quae!</p>
+                    <button class="sign--up">Sign up</button>
+                </div>
+                <img src="./images/sad-yagoo.jpg" alt="Sad CEO Yagoo">
+            </div>
         </div>
-        <div class="image-placeholder">
-            <p>this is a place holder for an image</p>
+        <div class="group--section">
+            <h1>Newest Group: HoloEN Council</h1>
+            <div class="profiles">
+                <div class="profile">
+                    <div class="picture kronii">
+                        <a href="https://www.youtube.com/channel/UCmbs8T6MWqUHP1tIQvSgKrg"></a>
+                    </div>
+                    <h3>Ouro Kronii</h3>
+                </div>
+                <div class="profile">
+                    <div class="picture mumei">
+                        <a href="https://www.youtube.com/channel/UC3n5uGu18FoCy23ggWWp8tA"></a>
+                    </div>
+                    <h3>Nanashi Mumei</h3>
+                </div>
+                <div class="profile">
+                    <div class="picture fauna">
+                        <a href="https://www.youtube.com/channel/UCO_aKKYxn4tvrqPjcTzZ6EQ"></a>
+                    </div>
+                    <h3>Ceres Fauna</h3>
+                </div>
+                <div class="profile">
+                    <div class="picture sana">
+                        <a href="https://www.youtube.com/channel/UCsUj0dszADCGbF3gNrQEuSQ"></a>
+                    </div>
+                    <h3>Tsukomo Sana</h3>
+                </div>
+                <div class="profile">
+                    <div class="picture bae">
+                        <a href="https://www.youtube.com/channel/UCgmPnx-EEeOrZSg5Tiw7ZRQ"></a>
+                    </div>
+                    <h3>Hakos Baelz</h3>
+                </div>
+            </div>
+        </div>
+        <div class="other--apps">
+            <h1>Check out Cas' Odin projects</h1>
+            <div class="apps">
+                <div class="app">
+                    <h3>Odin Recipe</h3>
+                    <a href="https://cas247-ph.github.io/odin-recipes/" target="_blank"><img src="./images-html/kisspng-chef-portable-network-graphics-clip-art-cooking-vector-library-stock-chefs-clipart-cooking-demo-5d0f2a375c7f82.0028871915612749353789-removebg-preview.png" alt="A Chef"></a>
+                </div>
+                <div class="app">
+                    <h3>Rock Paper Scissors</h3>
+                    <a href="https://cas247-ph.github.io/Rock-Paper-Scissors/" target="_blank"><img src="./images-html/SQUID-GAME-NEON-501229750.png" alt="Squid Game Triangle Circle Square"></a>
+                </div>
+                <div class="app">
+                    <h3>Calculator</h3>
+                    <a href="#"><img src="./images-html/Placeholder.jpg" alt="placeholder"></a>
+                </div>
+                <div class="app">
+                    <h3>Etch a Sketch</h3>
+                    <a href="#"><img src="./images-html/Placeholder.jpg" alt="placeholder"></a>
+                </div>
         </div>
     </div>
-    </section>
-
-    <!-----Information------>
-    <section class="information">
-        <div class="title"><h1>Some Random Information.</h1></div>
-        <div class="container">
-            <div class="info">
-                <div class="placeholder"></div>
-                <div class="info-text">This is some subtext under an illustration or images</div>
-            </div>
-            <div class="info">
-                <div class="placeholder"></div>
-                <div class="info-text">This is some subtext under an illustration or images</div>
-            </div>
-            <div class="info">
-                <div class="placeholder"></div>
-                <div class="info-text">This is some subtext under an illustration or images</div>
-            </div>
-            <div class="info">
-                <div class="placeholder"></div>
-                <div class="info-text">This is some subtext under an illustration or images</div>
+    <div class="qoute--section">
+        <div class="qoute--wrapper">
+            <div class="text">
+                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, perspiciatis dicta ut quod corrupti, vero expedita repellendus cum saepe, eius eligendi earum ea officia! Hic dolor omnis quaerat laboriosam minus?"</p>
+                <h2>-Coco Senchou</h2>
             </div>
         </div>
-    </section>
-    <!-- Qoute -->
-    <section class="qoute">
-        <div class="qoute-container">
-            <div class="randomqoute"> 
-                This is an inspiring quote, or a testimonial from a customer.
-                maybe it's just filling up space, or maybe people will actually read it.
-                who knows? All I know is that it looks nice.
-            </div>
-            <div class="author">
-                - Thor, God of Thunder
-            </div>
-        </div>
-    </section>
-
-    <!-- Sign up-->
-    <section class="signup">
-        <div class="box">
-            <div class="textbox">
-                <h2>Call to action! It's time!</h2>
-                <p>Sign up for our product by clicking that button right over there!</p>
-            </div>
-            <!---->
-            <button class="contact">
-                Sign up
-            </button>
-        </div>
-    </section>
-    <!-- Footer -->
-    <section class="footer">
-        <div class="footer-text"> Copyright © The Odin Project 2021</div>
-        <div class="footer-text"> In collaboration with Cas247-Ph</div>
-    </section>
-    
+    </div>
 </body>
 </html>
